@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1487" systemVersion="12A269" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Adresse" representedClassName="Adresse" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plz" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="strasse" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="biergarten" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Biergarten" inverseName="adresse" inverseEntity="Biergarten" syncable="YES"/>
+    </entity>
+    <entity name="Biergarten" representedClassName="Biergarten" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="desclong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telefon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="adresse" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Adresse" inverseName="biergarten" inverseEntity="Adresse" syncable="YES"/>
+        <relationship name="getraenke" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Getraenke" inverseName="biergarten" inverseEntity="Getraenke" syncable="YES"/>
+        <relationship name="speisen" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Speisen" inverseName="biergarten" inverseEntity="Speisen" syncable="YES"/>
+    </entity>
+    <entity name="Getraenke" representedClassName="Getraenke" syncable="YES">
+        <attribute name="apfelschorle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="biermarke" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mass" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="biergarten" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Biergarten" inverseName="getraenke" inverseEntity="Biergarten" syncable="YES"/>
+    </entity>
+    <entity name="Speisen" representedClassName="Speisen" syncable="YES">
+        <attribute name="lieblingsgericht" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="obazda" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="riesenbreze" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speisenkommentar" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="biergarten" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Biergarten" inverseName="speisen" inverseEntity="Biergarten" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Adresse" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="Biergarten" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="Getraenke" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="Speisen" positionX="0" positionY="0" width="128" height="120"/>
+    </elements>
+</model>
