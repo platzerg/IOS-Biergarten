@@ -15,7 +15,7 @@
 #import "JSMCoreDataHelper.h"
 #import "Constants.h"
 
-#define kBiergartenURL [NSURL URLWithString: @"http://beergardenservice.appspot.com/platzerworld/biergarten/holebiergarten"] //
+#define kBiergartenURL [NSURL URLWithString: @"http://biergartenservice.appspot.com/platzerworld/biergarten/holebiergarten"] //
 #define kBiergartenQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0) //1
 
 
