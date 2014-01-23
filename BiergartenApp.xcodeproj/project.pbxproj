@@ -29,6 +29,7 @@
 		0B4CCE2D1891425C0033285D /* PVCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE2A1891425C0033285D /* PVCharacter.m */; };
 		0B4CCE33189142720033285D /* PVAttractionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE30189142720033285D /* PVAttractionAnnotation.m */; };
 		0B4CCE34189142720033285D /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */; };
+		0B4CCE37189148030033285D /* PVParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE36189148030033285D /* PVParkMapViewController.m */; };
 		D510D5FD15DE65F5003B4986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FC15DE65F5003B4986 /* UIKit.framework */; };
 		D510D5FF15DE65F5003B4986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FE15DE65F5003B4986 /* Foundation.framework */; };
 		D510D60115DE65F5003B4986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D60015DE65F5003B4986 /* CoreGraphics.framework */; };
@@ -84,6 +85,8 @@
 		0B4CCE30189142720033285D /* PVAttractionAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotation.m; sourceTree = "<group>"; };
 		0B4CCE31189142720033285D /* PVAttractionAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAttractionAnnotationView.h; sourceTree = "<group>"; };
 		0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotationView.m; sourceTree = "<group>"; };
+		0B4CCE35189148030033285D /* PVParkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapViewController.h; sourceTree = "<group>"; };
+		0B4CCE36189148030033285D /* PVParkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapViewController.m; sourceTree = "<group>"; };
 		D510D5F815DE65F5003B4986 /* BiergartenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiergartenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D510D5FC15DE65F5003B4986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D510D5FE15DE65F5003B4986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -281,6 +284,8 @@
 		D510D61F15DE667C003B4986 /* Biergarten */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CCE35189148030033285D /* PVParkMapViewController.h */,
+				0B4CCE36189148030033285D /* PVParkMapViewController.m */,
 				D5FAE63115E049A80028E80D /* BiergartenRootControllerViewController.h */,
 				D5FAE63215E049A80028E80D /* BiergartenRootControllerViewController.m */,
 				D510D60B15DE65F5003B4986 /* AppDelegate.h */,
@@ -451,6 +456,7 @@
 				0B4CCE2B1891425C0033285D /* PVParkMapOverlay.m in Sources */,
 				0B4CCE33189142720033285D /* PVAttractionAnnotation.m in Sources */,
 				D522BA6415DEDEA800826307 /* Getraenke.m in Sources */,
+				0B4CCE37189148030033285D /* PVParkMapViewController.m in Sources */,
 				D5FAE63315E049A80028E80D /* BiergartenRootControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

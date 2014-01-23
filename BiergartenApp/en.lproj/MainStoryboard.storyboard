@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ftV-le-AEQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B3116" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="ftV-le-AEQ">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="Zd2-ng-d5T">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FcZ-6g-lUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="ftV-le-AEQ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MZz-th-4rz">
                         <autoresizingMask key="autoresizingMask"/>
@@ -17,28 +16,23 @@
                         <segue destination="FCY-Zq-EsN" kind="relationship" relationship="rootViewController" id="QoG-nx-1H7"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FcZ-6g-lUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1379" y="205"/>
         </scene>
         <!--Biergarten Root Controller View Controller - Biergarten-->
         <scene sceneID="Pjv-1p-xuo">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="euk-Gp-m1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="FCY-Zq-EsN" customClass="BiergartenRootControllerViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qIt-e8-tdK">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HYE-fk-YCb">
                                 <rect key="frame" x="20" y="50" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Biergarten Überblick">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="dLO-Vp-aUC" kind="push" id="com-lK-f0u"/>
@@ -47,13 +41,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dvp-BH-wDd">
                                 <rect key="frame" x="20" y="116" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Biergarten finden">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="3ur-pa-nfO" kind="push" id="sJS-Mc-LXO"/>
@@ -62,13 +51,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MKK-g8-Yrk">
                                 <rect key="frame" x="20" y="180" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Biergarten eintragen">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="4IH-l2-6Bd" kind="push" id="9A2-Gk-9gn"/>
@@ -77,13 +61,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sWk-8X-Fat">
                                 <rect key="frame" x="20" y="334" width="280" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Einstellungen">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="fKr-LE-zhU" kind="push" id="8hX-0Y-E8e"/>
@@ -94,50 +73,50 @@
                     </view>
                     <navigationItem key="navigationItem" title="Biergarten" id="xZc-Wh-eCQ"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euk-Gp-m1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-916" y="195"/>
         </scene>
         <!--View Controller - Einstellungen-->
         <scene sceneID="Tiv-RU-apb">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EVm-l0-Gwh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="fKr-LE-zhU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dHi-vk-gZo">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Einstellungen" id="owr-8H-9fq"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EVm-l0-Gwh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1229" y="745"/>
         </scene>
         <!--View Controller - Biergarten eintragen-->
         <scene sceneID="tBr-4a-fo2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="j7C-c8-wF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="4IH-l2-6Bd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ipK-14-Z6z">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Biergarten eintragen" id="6y5-Jn-MwR"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j7C-c8-wF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-732" y="822"/>
         </scene>
         <!--View Controller - Favoriten-->
         <scene sceneID="vpS-3s-LBN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="VGE-9Q-yrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="I7D-xg-1TN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rew-HM-7cw">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="cLX-WO-msk">
-                                <rect key="frame" x="-34" y="-122" width="320" height="367"/>
+                                <rect key="frame" x="-34" y="-122" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </mapView>
                         </subviews>
@@ -145,49 +124,78 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Favoriten" id="NgV-lX-A8g"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGE-9Q-yrg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="80" y="502"/>
         </scene>
-        <!--View Controller - Überblick-->
+        <!--Park Map View Controller - Überblick-->
         <scene sceneID="apx-fT-iNa">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kZG-ba-aKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Gsm-Qt-EqH" sceneMemberID="viewController">
+                <viewController id="Gsm-Qt-EqH" customClass="PVParkMapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="27g-I3-qLV">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" id="Sbh-Fh-EeA">
+                                <rect key="frame" x="0.0" y="59" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="27L-NB-756">
+                                        <nil key="title"/>
+                                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="DAj-DB-bN6">
+                                            <rect key="frame" x="8" y="8" width="264" height="29"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="First"/>
+                                                <segment title="Second"/>
+                                                <segment title=""/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="mapTypeChanged:" destination="Gsm-Qt-EqH" eventType="valueChanged" id="irK-6m-Tno"/>
+                                            </connections>
+                                        </segmentedControl>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="alf-08-xcv"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="gB4-Uv-nWu">
-                                <rect key="frame" x="-12" y="76" width="320" height="367"/>
+                                <rect key="frame" x="0.0" y="103" width="320" height="453"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Gsm-Qt-EqH" id="Eag-eo-JYc"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Überblick" id="BJa-OR-dI1"/>
+                    <connections>
+                        <outlet property="mapTypeSegmentedControl" destination="DAj-DB-bN6" id="G1b-nA-9PC"/>
+                        <outlet property="mapView" destination="gB4-Uv-nWu" id="LiZ-jQ-7VT"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kZG-ba-aKG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="80" y="-62"/>
+            <point key="canvasLocation" x="80" y="-58"/>
         </scene>
         <!--View Controller - Biergarten finden-->
         <scene sceneID="lzw-Rb-ZNw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fXN-Zp-87A" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="3ur-pa-nfO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SU8-a4-VpI">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Biergarten finden" id="XMh-u1-ZZ9"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXN-Zp-87A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-664" y="-486"/>
         </scene>
         <!--Tab Bar Controller - Biergarten Überblick-->
         <scene sceneID="jLr-ZY-qzA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G4r-bZ-O84" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController definesPresentationContext="YES" id="dLO-Vp-aUC" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Biergarten Überblick" id="oec-ic-ECT"/>
                     <nil key="simulatedBottomBarMetrics"/>
@@ -201,6 +209,7 @@
                         <segue destination="I7D-xg-1TN" kind="relationship" relationship="viewControllers" id="fyp-0U-ZIo"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G4r-bZ-O84" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-452" y="222"/>
         </scene>
