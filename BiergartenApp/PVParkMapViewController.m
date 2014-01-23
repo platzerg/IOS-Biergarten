@@ -20,31 +20,65 @@
     [super viewDidLoad];
     
     self.selectedOptions = [NSMutableArray array];
-    [self.selectedOptions addObject:[NSNumber numberWithInt:3]];
+    [self.selectedOptions addObject:[NSNumber numberWithInt:2]];
     
-    self.park = [[PVPark alloc] initWithFilename:@"MagicMountain"];
-    
-    CLLocationDegrees latDelta = self.park.overlayTopLeftCoordinate.latitude - self.park.overlayBottomRightCoordinate.latitude;
-    
-    // think of a span as a tv size, measure from one corner to another
-    MKCoordinateSpan span = MKCoordinateSpanMake(fabsf(latDelta), 0.0);
-    
-    MKCoordinateRegion region = MKCoordinateRegionMake(self.park.midCoordinate, span);
-    
-    self.mapView.region = region;
+    CLLocationManager *locationManager = [[CLLocationManager alloc] init];
+    locationManager.delegate = self;
+    locationManager.distanceFilter = kCLDistanceFilterNone; // whenever we move
+    locationManager.desiredAccuracy = kCLLocationAccuracyBestForNavigation;
+    [locationManager startUpdatingLocation];
     
     
     
-    [self loadSelectedOptions];
     
-    //CLLocationCoordinate2D centerCoord = { 34.42640, 118.59918 };
+    // define span for map: how much area will be shown
+    MKCoordinateSpan span;
+    span.latitudeDelta = 0.002;
+    span.longitudeDelta = 0.002;
+    
+    // define starting point for map
+    CLLocationCoordinate2D start;
+    start.latitude = 48.185977;
+    start.longitude = 11.620038;
+    
+    // create region, consisting of span and location
+    MKCoordinateRegion region;
+    region.span = span;
+    region.center = start;
+    
+    // move the map to our location
+    self.mapView.showsUserLocation = YES;
+    self.mapView.mapType = MKMapTypeHybrid;
+    
+    [self.mapView setRegion:region animated:YES];
+    
+    PVAttractionAnnotation *annotation = [[PVAttractionAnnotation alloc] init];
+    CGPoint point = CGPointFromString(@"{48.185977, 11.620038}");
+            
+    annotation.coordinate = CLLocationCoordinate2DMake(point.x, point.y);
+    annotation.title = @"Aumeister";
+    annotation.type = 6;
+    annotation.subtitle = @"München";
+    
+    [self.mapView addAnnotation:annotation];
+    
+    CLLocationCoordinate2D centerCoord = { 48.185977, 11.620038 };
     self.mapView.zoomEnabled = true;
-    //self.mapView.centerCoordinate = centerCoord;
+    self.mapView.centerCoordinate = centerCoord;
 
     
 
 }
 
+
+- (void)locationManager:(CLLocationManager *)manager
+    didUpdateToLocation:(CLLocation *)newLocation
+           fromLocation:(CLLocation *)oldLocation
+{
+    NSLog(@"location");
+    [manager stopUpdatingLocation];
+    
+}
 
 - (void)addOverlay {
     PVParkMapOverlay *overlay = [[PVParkMapOverlay alloc] initWithPark:self.park];

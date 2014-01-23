@@ -9,7 +9,7 @@ typedef NS_ENUM(NSInteger, PVMapOption ) {
     PVMapRoute
 };
 
-@interface PVParkMapViewController : UIViewController <MKMapViewDelegate>
+@interface PVParkMapViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate>
 
 @property (nonatomic, strong) NSMutableArray *selectedOptions;
 

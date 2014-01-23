@@ -17,6 +17,9 @@
             case PVAttractionRide:
                 self.image = [UIImage imageNamed:@"ride"];
                 break;
+            case 6:
+                self.image = [UIImage imageNamed:@"bierundbreze"];
+                break;
             default:
                 self.image = [UIImage imageNamed:@"star"];
                 break;

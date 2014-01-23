@@ -30,6 +30,7 @@
 		0B4CCE33189142720033285D /* PVAttractionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE30189142720033285D /* PVAttractionAnnotation.m */; };
 		0B4CCE34189142720033285D /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */; };
 		0B4CCE37189148030033285D /* PVParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE36189148030033285D /* PVParkMapViewController.m */; };
+		0BA272D418916CE5008E3AC4 /* bierundbreze.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA272D318916CE5008E3AC4 /* bierundbreze.png */; };
 		D510D5FD15DE65F5003B4986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FC15DE65F5003B4986 /* UIKit.framework */; };
 		D510D5FF15DE65F5003B4986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FE15DE65F5003B4986 /* Foundation.framework */; };
 		D510D60115DE65F5003B4986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D60015DE65F5003B4986 /* CoreGraphics.framework */; };
@@ -87,6 +88,7 @@
 		0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotationView.m; sourceTree = "<group>"; };
 		0B4CCE35189148030033285D /* PVParkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapViewController.h; sourceTree = "<group>"; };
 		0B4CCE36189148030033285D /* PVParkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapViewController.m; sourceTree = "<group>"; };
+		0BA272D318916CE5008E3AC4 /* bierundbreze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bierundbreze.png; sourceTree = "<group>"; };
 		D510D5F815DE65F5003B4986 /* BiergartenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiergartenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D510D5FC15DE65F5003B4986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D510D5FE15DE65F5003B4986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -347,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				0B4CCE00189141E70033285D /* firstaid.png */,
+				0BA272D318916CE5008E3AC4 /* bierundbreze.png */,
 				0B4CCE01189141E70033285D /* firstaid@2x.png */,
 				0B4CCE02189141E70033285D /* food.png */,
 				0B4CCE03189141E70033285D /* food@2x.png */,
@@ -417,6 +420,7 @@
 				D510D60715DE65F5003B4986 /* InfoPlist.strings in Resources */,
 				0B4CCE0E189141E70033285D /* ride.png in Resources */,
 				0B4CCE1D1891422B0033285D /* EntranceToGoliathRoute.plist in Resources */,
+				0BA272D418916CE5008E3AC4 /* bierundbreze.png in Resources */,
 				0B4CCE13189141E70033285D /* overlay_park@2x.png in Resources */,
 				D510D61015DE65F5003B4986 /* MainStoryboard.storyboard in Resources */,
 				0B4CCE0B189141E70033285D /* firstaid@2x.png in Resources */,
