@@ -166,6 +166,7 @@
 				0B4CCE1A1891422B0033285D /* TweetyBirdLocations.plist */,
 			);
 			name = "Park Information";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0B4CCE241891424F0033285D /* Overlays */ = {
@@ -179,6 +180,7 @@
 				0B4CCE2A1891425C0033285D /* PVCharacter.m */,
 			);
 			name = Overlays;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0B4CCE2E189142630033285D /* Annotations */ = {
@@ -190,14 +192,12 @@
 				0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */,
 			);
 			name = Annotations;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D510D5ED15DE65F5003B4986 = {
 			isa = PBXGroup;
 			children = (
-				0B4CCE2E189142630033285D /* Annotations */,
-				0B4CCE241891424F0033285D /* Overlays */,
-				0B4CCE141891421F0033285D /* Park Information */,
 				D510D60215DE65F5003B4986 /* BiergartenApp */,
 				D510D5FB15DE65F5003B4986 /* Frameworks */,
 				D510D5F915DE65F5003B4986 /* Products */,
@@ -230,6 +230,9 @@
 		D510D60215DE65F5003B4986 /* BiergartenApp */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CCE2E189142630033285D /* Annotations */,
+				0B4CCE241891424F0033285D /* Overlays */,
+				0B4CCE141891421F0033285D /* Park Information */,
 				D5FAE62B15E047810028E80D /* Images */,
 				D5FAE61D15E03C2A0028E80D /* Maps */,
 				D510D63315DE67D3003B4986 /* Services */,
