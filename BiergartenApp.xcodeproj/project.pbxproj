@@ -31,6 +31,54 @@
 		0B4CCE34189142720033285D /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */; };
 		0B4CCE37189148030033285D /* PVParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE36189148030033285D /* PVParkMapViewController.m */; };
 		0BA272D418916CE5008E3AC4 /* bierundbreze.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA272D318916CE5008E3AC4 /* bierundbreze.png */; };
+		0BA2731018917CF5008E3AC4 /* PVPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE22189142430033285D /* PVPark.m */; };
+		0BA2731118917CF5008E3AC4 /* JSMCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D67715DE817B003B4986 /* JSMCoreDataHelper.m */; };
+		0BA2731218917CF5008E3AC4 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D62F15DE673F003B4986 /* Constants.m */; };
+		0BA2731318917CF5008E3AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D60815DE65F5003B4986 /* main.m */; };
+		0BA2731418917CF5008E3AC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D60C15DE65F5003B4986 /* AppDelegate.m */; };
+		0BA2731518917CF5008E3AC4 /* BiergartenGAEFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D63515DE67F7003B4986 /* BiergartenGAEFetcher.m */; };
+		0BA2731618917CF5008E3AC4 /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */; };
+		0BA2731718917CF5008E3AC4 /* PVParkMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE281891425C0033285D /* PVParkMapOverlayView.m */; };
+		0BA2731818917CF5008E3AC4 /* BiergartenDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D510D63715DE6BB8003B4986 /* BiergartenDataModel.xcdatamodeld */; };
+		0BA2731918917CF5008E3AC4 /* BiergartenDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D510D66615DE71EF003B4986 /* BiergartenDataHelper.m */; };
+		0BA2731A18917CF5008E3AC4 /* Speisen.m in Sources */ = {isa = PBXBuildFile; fileRef = D522BA5A15DEDEA800826307 /* Speisen.m */; };
+		0BA2731B18917CF5008E3AC4 /* Biergarten.m in Sources */ = {isa = PBXBuildFile; fileRef = D522BA5D15DEDEA800826307 /* Biergarten.m */; };
+		0BA2731C18917CF5008E3AC4 /* PVCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE2A1891425C0033285D /* PVCharacter.m */; };
+		0BA2731D18917CF5008E3AC4 /* Adresse.m in Sources */ = {isa = PBXBuildFile; fileRef = D522BA6015DEDEA800826307 /* Adresse.m */; };
+		0BA2731E18917CF5008E3AC4 /* PVParkMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE261891425C0033285D /* PVParkMapOverlay.m */; };
+		0BA2731F18917CF5008E3AC4 /* PVAttractionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE30189142720033285D /* PVAttractionAnnotation.m */; };
+		0BA2732018917CF5008E3AC4 /* Getraenke.m in Sources */ = {isa = PBXBuildFile; fileRef = D522BA6315DEDEA800826307 /* Getraenke.m */; };
+		0BA2732118917CF5008E3AC4 /* PVParkMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE36189148030033285D /* PVParkMapViewController.m */; };
+		0BA2732218917CF5008E3AC4 /* BiergartenRootControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FAE63215E049A80028E80D /* BiergartenRootControllerViewController.m */; };
+		0BA2732418917CF5008E3AC4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FAE62515E03FDD0028E80D /* CoreLocation.framework */; };
+		0BA2732518917CF5008E3AC4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D66C15DE7743003B4986 /* QuartzCore.framework */; };
+		0BA2732618917CF5008E3AC4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D66A15DE773C003B4986 /* AVFoundation.framework */; };
+		0BA2732718917CF5008E3AC4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D66815DE7734003B4986 /* MapKit.framework */; };
+		0BA2732818917CF5008E3AC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D63115DE67AA003B4986 /* CoreData.framework */; };
+		0BA2732918917CF5008E3AC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FC15DE65F5003B4986 /* UIKit.framework */; };
+		0BA2732A18917CF5008E3AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FE15DE65F5003B4986 /* Foundation.framework */; };
+		0BA2732B18917CF5008E3AC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D60015DE65F5003B4986 /* CoreGraphics.framework */; };
+		0BA2732D18917CF5008E3AC4 /* MagicMountainAttractions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE161891422B0033285D /* MagicMountainAttractions.plist */; };
+		0BA2732E18917CF5008E3AC4 /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE03189141E70033285D /* food@2x.png */; };
+		0BA2732F18917CF5008E3AC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D510D60515DE65F5003B4986 /* InfoPlist.strings */; };
+		0BA2733018917CF5008E3AC4 /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE04189141E70033285D /* ride.png */; };
+		0BA2733118917CF5008E3AC4 /* EntranceToGoliathRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE171891422B0033285D /* EntranceToGoliathRoute.plist */; };
+		0BA2733218917CF5008E3AC4 /* bierundbreze.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA272D318916CE5008E3AC4 /* bierundbreze.png */; };
+		0BA2733318917CF5008E3AC4 /* overlay_park@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE09189141E70033285D /* overlay_park@2x.png */; };
+		0BA2733418917CF5008E3AC4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D510D60E15DE65F5003B4986 /* MainStoryboard.storyboard */; };
+		0BA2733518917CF5008E3AC4 /* firstaid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE01189141E70033285D /* firstaid@2x.png */; };
+		0BA2733618917CF5008E3AC4 /* bayerflagge_480x800_ohne_alles.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FAE62C15E047B20028E80D /* bayerflagge_480x800_ohne_alles.png */; };
+		0BA2733718917CF5008E3AC4 /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE181891422B0033285D /* TazLocations.plist */; };
+		0BA2733818917CF5008E3AC4 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE07189141E70033285D /* star@2x.png */; };
+		0BA2733918917CF5008E3AC4 /* MagicMountain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE151891422B0033285D /* MagicMountain.plist */; };
+		0BA2733A18917CF5008E3AC4 /* overlay_park.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE08189141E70033285D /* overlay_park.png */; };
+		0BA2733B18917CF5008E3AC4 /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE191891422B0033285D /* BatmanLocations.plist */; };
+		0BA2733C18917CF5008E3AC4 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE02189141E70033285D /* food.png */; };
+		0BA2733D18917CF5008E3AC4 /* firstaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE00189141E70033285D /* firstaid.png */; };
+		0BA2733E18917CF5008E3AC4 /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE05189141E70033285D /* ride@2x.png */; };
+		0BA2733F18917CF5008E3AC4 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE06189141E70033285D /* star.png */; };
+		0BA2734018917CF5008E3AC4 /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE1A1891422B0033285D /* TweetyBirdLocations.plist */; };
+		0BA2734118917CF5008E3AC4 /* IpadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CBC2E715EA2B4A00362917 /* IpadStoryboard.storyboard */; };
 		D510D5FD15DE65F5003B4986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FC15DE65F5003B4986 /* UIKit.framework */; };
 		D510D5FF15DE65F5003B4986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FE15DE65F5003B4986 /* Foundation.framework */; };
 		D510D60115DE65F5003B4986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D60015DE65F5003B4986 /* CoreGraphics.framework */; };
@@ -89,6 +137,9 @@
 		0B4CCE35189148030033285D /* PVParkMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapViewController.h; sourceTree = "<group>"; };
 		0B4CCE36189148030033285D /* PVParkMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapViewController.m; sourceTree = "<group>"; };
 		0BA272D318916CE5008E3AC4 /* bierundbreze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bierundbreze.png; sourceTree = "<group>"; };
+		0BA2730D18917CA1008E3AC4 /* BiergartenApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BiergartenApp copy-Info.plist"; path = "/Users/platzerworld/Development/IOS/IOS-Biergarten/BiergartenApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		0BA2734518917CF5008E3AC4 /* BiergartenApp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BiergartenApp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA2734618917CF5008E3AC4 /* BiergartenApp copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BiergartenApp copy2-Info.plist"; path = "/Users/platzerworld/Development/IOS/IOS-Biergarten/BiergartenApp copy2-Info.plist"; sourceTree = "<absolute>"; };
 		D510D5F815DE65F5003B4986 /* BiergartenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiergartenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D510D5FC15DE65F5003B4986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D510D5FE15DE65F5003B4986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,6 +190,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0BA2732318917CF5008E3AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA2732418917CF5008E3AC4 /* CoreLocation.framework in Frameworks */,
+				0BA2732518917CF5008E3AC4 /* QuartzCore.framework in Frameworks */,
+				0BA2732618917CF5008E3AC4 /* AVFoundation.framework in Frameworks */,
+				0BA2732718917CF5008E3AC4 /* MapKit.framework in Frameworks */,
+				0BA2732818917CF5008E3AC4 /* CoreData.framework in Frameworks */,
+				0BA2732918917CF5008E3AC4 /* UIKit.framework in Frameworks */,
+				0BA2732A18917CF5008E3AC4 /* Foundation.framework in Frameworks */,
+				0BA2732B18917CF5008E3AC4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D510D5F515DE65F5003B4986 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +269,8 @@
 				D510D60215DE65F5003B4986 /* BiergartenApp */,
 				D510D5FB15DE65F5003B4986 /* Frameworks */,
 				D510D5F915DE65F5003B4986 /* Products */,
+				0BA2730D18917CA1008E3AC4 /* BiergartenApp copy-Info.plist */,
+				0BA2734618917CF5008E3AC4 /* BiergartenApp copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +278,7 @@
 			isa = PBXGroup;
 			children = (
 				D510D5F815DE65F5003B4986 /* BiergartenApp.app */,
+				0BA2734518917CF5008E3AC4 /* BiergartenApp copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -367,6 +436,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0BA2730E18917CF5008E3AC4 /* BiergartenAppIPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BA2734218917CF5008E3AC4 /* Build configuration list for PBXNativeTarget "BiergartenAppIPad" */;
+			buildPhases = (
+				0BA2730F18917CF5008E3AC4 /* Sources */,
+				0BA2732318917CF5008E3AC4 /* Frameworks */,
+				0BA2732C18917CF5008E3AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiergartenAppIPad;
+			productName = BiergartenApp;
+			productReference = 0BA2734518917CF5008E3AC4 /* BiergartenApp copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D510D5F715DE65F5003B4986 /* BiergartenApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D510D61615DE65F5003B4986 /* Build configuration list for PBXNativeTarget "BiergartenApp" */;
@@ -406,11 +492,40 @@
 			projectRoot = "";
 			targets = (
 				D510D5F715DE65F5003B4986 /* BiergartenApp */,
+				0BA2730E18917CF5008E3AC4 /* BiergartenAppIPad */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0BA2732C18917CF5008E3AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA2732D18917CF5008E3AC4 /* MagicMountainAttractions.plist in Resources */,
+				0BA2732E18917CF5008E3AC4 /* food@2x.png in Resources */,
+				0BA2732F18917CF5008E3AC4 /* InfoPlist.strings in Resources */,
+				0BA2733018917CF5008E3AC4 /* ride.png in Resources */,
+				0BA2733118917CF5008E3AC4 /* EntranceToGoliathRoute.plist in Resources */,
+				0BA2733218917CF5008E3AC4 /* bierundbreze.png in Resources */,
+				0BA2733318917CF5008E3AC4 /* overlay_park@2x.png in Resources */,
+				0BA2733418917CF5008E3AC4 /* MainStoryboard.storyboard in Resources */,
+				0BA2733518917CF5008E3AC4 /* firstaid@2x.png in Resources */,
+				0BA2733618917CF5008E3AC4 /* bayerflagge_480x800_ohne_alles.png in Resources */,
+				0BA2733718917CF5008E3AC4 /* TazLocations.plist in Resources */,
+				0BA2733818917CF5008E3AC4 /* star@2x.png in Resources */,
+				0BA2733918917CF5008E3AC4 /* MagicMountain.plist in Resources */,
+				0BA2733A18917CF5008E3AC4 /* overlay_park.png in Resources */,
+				0BA2733B18917CF5008E3AC4 /* BatmanLocations.plist in Resources */,
+				0BA2733C18917CF5008E3AC4 /* food.png in Resources */,
+				0BA2733D18917CF5008E3AC4 /* firstaid.png in Resources */,
+				0BA2733E18917CF5008E3AC4 /* ride@2x.png in Resources */,
+				0BA2733F18917CF5008E3AC4 /* star.png in Resources */,
+				0BA2734018917CF5008E3AC4 /* TweetyBirdLocations.plist in Resources */,
+				0BA2734118917CF5008E3AC4 /* IpadStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D510D5F615DE65F5003B4986 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,6 +557,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0BA2730F18917CF5008E3AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA2731018917CF5008E3AC4 /* PVPark.m in Sources */,
+				0BA2731118917CF5008E3AC4 /* JSMCoreDataHelper.m in Sources */,
+				0BA2731218917CF5008E3AC4 /* Constants.m in Sources */,
+				0BA2731318917CF5008E3AC4 /* main.m in Sources */,
+				0BA2731418917CF5008E3AC4 /* AppDelegate.m in Sources */,
+				0BA2731518917CF5008E3AC4 /* BiergartenGAEFetcher.m in Sources */,
+				0BA2731618917CF5008E3AC4 /* PVAttractionAnnotationView.m in Sources */,
+				0BA2731718917CF5008E3AC4 /* PVParkMapOverlayView.m in Sources */,
+				0BA2731818917CF5008E3AC4 /* BiergartenDataModel.xcdatamodeld in Sources */,
+				0BA2731918917CF5008E3AC4 /* BiergartenDataHelper.m in Sources */,
+				0BA2731A18917CF5008E3AC4 /* Speisen.m in Sources */,
+				0BA2731B18917CF5008E3AC4 /* Biergarten.m in Sources */,
+				0BA2731C18917CF5008E3AC4 /* PVCharacter.m in Sources */,
+				0BA2731D18917CF5008E3AC4 /* Adresse.m in Sources */,
+				0BA2731E18917CF5008E3AC4 /* PVParkMapOverlay.m in Sources */,
+				0BA2731F18917CF5008E3AC4 /* PVAttractionAnnotation.m in Sources */,
+				0BA2732018917CF5008E3AC4 /* Getraenke.m in Sources */,
+				0BA2732118917CF5008E3AC4 /* PVParkMapViewController.m in Sources */,
+				0BA2732218917CF5008E3AC4 /* BiergartenRootControllerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D510D5F415DE65F5003B4986 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -490,6 +631,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0BA2734318917CF5008E3AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guenter platzer (T4PB5U8RFR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiergartenApp/BiergartenApp-Prefix.pch";
+				INFOPLIST_FILE = "BiergartenApp copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "BiergartenApp copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BA2734418917CF5008E3AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: guenter platzer (T4PB5U8RFR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiergartenApp/BiergartenApp-Prefix.pch";
+				INFOPLIST_FILE = "BiergartenApp copy2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "BiergartenApp copy";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		D510D61415DE65F5003B4986 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,6 +669,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: guenter platzer (T4PB5U8RFR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -512,7 +684,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -525,6 +697,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: guenter platzer (T4PB5U8RFR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -532,7 +705,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -568,6 +741,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0BA2734218917CF5008E3AC4 /* Build configuration list for PBXNativeTarget "BiergartenAppIPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA2734318917CF5008E3AC4 /* Debug */,
+				0BA2734418917CF5008E3AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D510D5F215DE65F5003B4986 /* Build configuration list for PBXProject "BiergartenApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

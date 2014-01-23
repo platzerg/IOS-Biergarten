@@ -143,7 +143,7 @@
                                     <navigationItem id="27L-NB-756">
                                         <nil key="title"/>
                                         <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="DAj-DB-bN6">
-                                            <rect key="frame" x="8" y="8" width="264" height="29"/>
+                                            <rect key="frame" x="28" y="8" width="264" height="29"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
                                                 <segment title="First"/>
@@ -154,7 +154,6 @@
                                                 <action selector="mapTypeChanged:" destination="Gsm-Qt-EqH" eventType="valueChanged" id="irK-6m-Tno"/>
                                             </connections>
                                         </segmentedControl>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="alf-08-xcv"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>

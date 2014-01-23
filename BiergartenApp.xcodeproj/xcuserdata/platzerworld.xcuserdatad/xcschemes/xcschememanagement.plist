@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BiergartenApp copy 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BiergartenApp copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>BiergartenApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0BA272D518917CA1008E3AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BA2730E18917CF5008E3AC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D510D5F715DE65F5003B4986</key>
 		<dict>
 			<key>primary</key>
