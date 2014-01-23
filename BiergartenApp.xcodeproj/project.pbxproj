@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4CCE0A189141E70033285D /* firstaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE00189141E70033285D /* firstaid.png */; };
+		0B4CCE0B189141E70033285D /* firstaid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE01189141E70033285D /* firstaid@2x.png */; };
+		0B4CCE0C189141E70033285D /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE02189141E70033285D /* food.png */; };
+		0B4CCE0D189141E70033285D /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE03189141E70033285D /* food@2x.png */; };
+		0B4CCE0E189141E70033285D /* ride.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE04189141E70033285D /* ride.png */; };
+		0B4CCE0F189141E70033285D /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE05189141E70033285D /* ride@2x.png */; };
+		0B4CCE10189141E70033285D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE06189141E70033285D /* star.png */; };
+		0B4CCE11189141E70033285D /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE07189141E70033285D /* star@2x.png */; };
+		0B4CCE12189141E70033285D /* overlay_park.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE08189141E70033285D /* overlay_park.png */; };
+		0B4CCE13189141E70033285D /* overlay_park@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE09189141E70033285D /* overlay_park@2x.png */; };
+		0B4CCE1B1891422B0033285D /* MagicMountain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE151891422B0033285D /* MagicMountain.plist */; };
+		0B4CCE1C1891422B0033285D /* MagicMountainAttractions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE161891422B0033285D /* MagicMountainAttractions.plist */; };
+		0B4CCE1D1891422B0033285D /* EntranceToGoliathRoute.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE171891422B0033285D /* EntranceToGoliathRoute.plist */; };
+		0B4CCE1E1891422B0033285D /* TazLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE181891422B0033285D /* TazLocations.plist */; };
+		0B4CCE1F1891422B0033285D /* BatmanLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE191891422B0033285D /* BatmanLocations.plist */; };
+		0B4CCE201891422B0033285D /* TweetyBirdLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CCE1A1891422B0033285D /* TweetyBirdLocations.plist */; };
+		0B4CCE23189142430033285D /* PVPark.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE22189142430033285D /* PVPark.m */; };
+		0B4CCE2B1891425C0033285D /* PVParkMapOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE261891425C0033285D /* PVParkMapOverlay.m */; };
+		0B4CCE2C1891425C0033285D /* PVParkMapOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE281891425C0033285D /* PVParkMapOverlayView.m */; };
+		0B4CCE2D1891425C0033285D /* PVCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE2A1891425C0033285D /* PVCharacter.m */; };
+		0B4CCE33189142720033285D /* PVAttractionAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE30189142720033285D /* PVAttractionAnnotation.m */; };
+		0B4CCE34189142720033285D /* PVAttractionAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */; };
 		D510D5FD15DE65F5003B4986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FC15DE65F5003B4986 /* UIKit.framework */; };
 		D510D5FF15DE65F5003B4986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D5FE15DE65F5003B4986 /* Foundation.framework */; };
 		D510D60115DE65F5003B4986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D510D60015DE65F5003B4986 /* CoreGraphics.framework */; };
@@ -34,6 +56,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B4CCE00189141E70033285D /* firstaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstaid.png; sourceTree = "<group>"; };
+		0B4CCE01189141E70033285D /* firstaid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstaid@2x.png"; sourceTree = "<group>"; };
+		0B4CCE02189141E70033285D /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		0B4CCE03189141E70033285D /* food@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food@2x.png"; sourceTree = "<group>"; };
+		0B4CCE04189141E70033285D /* ride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ride.png; sourceTree = "<group>"; };
+		0B4CCE05189141E70033285D /* ride@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ride@2x.png"; sourceTree = "<group>"; };
+		0B4CCE06189141E70033285D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		0B4CCE07189141E70033285D /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		0B4CCE08189141E70033285D /* overlay_park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_park.png; sourceTree = "<group>"; };
+		0B4CCE09189141E70033285D /* overlay_park@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "overlay_park@2x.png"; sourceTree = "<group>"; };
+		0B4CCE151891422B0033285D /* MagicMountain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MagicMountain.plist; sourceTree = "<group>"; };
+		0B4CCE161891422B0033285D /* MagicMountainAttractions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MagicMountainAttractions.plist; sourceTree = "<group>"; };
+		0B4CCE171891422B0033285D /* EntranceToGoliathRoute.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EntranceToGoliathRoute.plist; sourceTree = "<group>"; };
+		0B4CCE181891422B0033285D /* TazLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TazLocations.plist; sourceTree = "<group>"; };
+		0B4CCE191891422B0033285D /* BatmanLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BatmanLocations.plist; sourceTree = "<group>"; };
+		0B4CCE1A1891422B0033285D /* TweetyBirdLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TweetyBirdLocations.plist; sourceTree = "<group>"; };
+		0B4CCE21189142430033285D /* PVPark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVPark.h; sourceTree = "<group>"; };
+		0B4CCE22189142430033285D /* PVPark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVPark.m; sourceTree = "<group>"; };
+		0B4CCE251891425C0033285D /* PVParkMapOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapOverlay.h; sourceTree = "<group>"; };
+		0B4CCE261891425C0033285D /* PVParkMapOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapOverlay.m; sourceTree = "<group>"; };
+		0B4CCE271891425C0033285D /* PVParkMapOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVParkMapOverlayView.h; sourceTree = "<group>"; };
+		0B4CCE281891425C0033285D /* PVParkMapOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVParkMapOverlayView.m; sourceTree = "<group>"; };
+		0B4CCE291891425C0033285D /* PVCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVCharacter.h; sourceTree = "<group>"; };
+		0B4CCE2A1891425C0033285D /* PVCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVCharacter.m; sourceTree = "<group>"; };
+		0B4CCE2F189142720033285D /* PVAttractionAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAttractionAnnotation.h; sourceTree = "<group>"; };
+		0B4CCE30189142720033285D /* PVAttractionAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotation.m; sourceTree = "<group>"; };
+		0B4CCE31189142720033285D /* PVAttractionAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVAttractionAnnotationView.h; sourceTree = "<group>"; };
+		0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVAttractionAnnotationView.m; sourceTree = "<group>"; };
 		D510D5F815DE65F5003B4986 /* BiergartenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiergartenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D510D5FC15DE65F5003B4986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D510D5FE15DE65F5003B4986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,9 +152,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B4CCE141891421F0033285D /* Park Information */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CCE151891422B0033285D /* MagicMountain.plist */,
+				0B4CCE161891422B0033285D /* MagicMountainAttractions.plist */,
+				0B4CCE171891422B0033285D /* EntranceToGoliathRoute.plist */,
+				0B4CCE181891422B0033285D /* TazLocations.plist */,
+				0B4CCE191891422B0033285D /* BatmanLocations.plist */,
+				0B4CCE1A1891422B0033285D /* TweetyBirdLocations.plist */,
+			);
+			name = "Park Information";
+			sourceTree = "<group>";
+		};
+		0B4CCE241891424F0033285D /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CCE251891425C0033285D /* PVParkMapOverlay.h */,
+				0B4CCE261891425C0033285D /* PVParkMapOverlay.m */,
+				0B4CCE271891425C0033285D /* PVParkMapOverlayView.h */,
+				0B4CCE281891425C0033285D /* PVParkMapOverlayView.m */,
+				0B4CCE291891425C0033285D /* PVCharacter.h */,
+				0B4CCE2A1891425C0033285D /* PVCharacter.m */,
+			);
+			name = Overlays;
+			sourceTree = "<group>";
+		};
+		0B4CCE2E189142630033285D /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CCE2F189142720033285D /* PVAttractionAnnotation.h */,
+				0B4CCE30189142720033285D /* PVAttractionAnnotation.m */,
+				0B4CCE31189142720033285D /* PVAttractionAnnotationView.h */,
+				0B4CCE32189142720033285D /* PVAttractionAnnotationView.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
 		D510D5ED15DE65F5003B4986 = {
 			isa = PBXGroup;
 			children = (
+				0B4CCE2E189142630033285D /* Annotations */,
+				0B4CCE241891424F0033285D /* Overlays */,
+				0B4CCE141891421F0033285D /* Park Information */,
 				D510D60215DE65F5003B4986 /* BiergartenApp */,
 				D510D5FB15DE65F5003B4986 /* Frameworks */,
 				D510D5F915DE65F5003B4986 /* Products */,
@@ -164,6 +254,8 @@
 		D510D61D15DE6658003B4986 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CCE21189142430033285D /* PVPark.h */,
+				0B4CCE22189142430033285D /* PVPark.m */,
 				D510D63715DE6BB8003B4986 /* BiergartenDataModel.xcdatamodeld */,
 				D522BA5915DEDEA800826307 /* Speisen.h */,
 				D522BA5A15DEDEA800826307 /* Speisen.m */,
@@ -246,6 +338,16 @@
 		D5FAE62B15E047810028E80D /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0B4CCE00189141E70033285D /* firstaid.png */,
+				0B4CCE01189141E70033285D /* firstaid@2x.png */,
+				0B4CCE02189141E70033285D /* food.png */,
+				0B4CCE03189141E70033285D /* food@2x.png */,
+				0B4CCE04189141E70033285D /* ride.png */,
+				0B4CCE05189141E70033285D /* ride@2x.png */,
+				0B4CCE06189141E70033285D /* star.png */,
+				0B4CCE07189141E70033285D /* star@2x.png */,
+				0B4CCE08189141E70033285D /* overlay_park.png */,
+				0B4CCE09189141E70033285D /* overlay_park@2x.png */,
 				D5FAE62C15E047B20028E80D /* bayerflagge_480x800_ohne_alles.png */,
 			);
 			name = Images;
@@ -302,9 +404,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4CCE1C1891422B0033285D /* MagicMountainAttractions.plist in Resources */,
+				0B4CCE0D189141E70033285D /* food@2x.png in Resources */,
 				D510D60715DE65F5003B4986 /* InfoPlist.strings in Resources */,
+				0B4CCE0E189141E70033285D /* ride.png in Resources */,
+				0B4CCE1D1891422B0033285D /* EntranceToGoliathRoute.plist in Resources */,
+				0B4CCE13189141E70033285D /* overlay_park@2x.png in Resources */,
 				D510D61015DE65F5003B4986 /* MainStoryboard.storyboard in Resources */,
+				0B4CCE0B189141E70033285D /* firstaid@2x.png in Resources */,
 				D5FAE62D15E047B20028E80D /* bayerflagge_480x800_ohne_alles.png in Resources */,
+				0B4CCE1E1891422B0033285D /* TazLocations.plist in Resources */,
+				0B4CCE11189141E70033285D /* star@2x.png in Resources */,
+				0B4CCE1B1891422B0033285D /* MagicMountain.plist in Resources */,
+				0B4CCE12189141E70033285D /* overlay_park.png in Resources */,
+				0B4CCE1F1891422B0033285D /* BatmanLocations.plist in Resources */,
+				0B4CCE0C189141E70033285D /* food.png in Resources */,
+				0B4CCE0A189141E70033285D /* firstaid.png in Resources */,
+				0B4CCE0F189141E70033285D /* ride@2x.png in Resources */,
+				0B4CCE10189141E70033285D /* star.png in Resources */,
+				0B4CCE201891422B0033285D /* TweetyBirdLocations.plist in Resources */,
 				D5CBC2E815EA2B4A00362917 /* IpadStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,16 +434,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B4CCE23189142430033285D /* PVPark.m in Sources */,
 				D510D67815DE826B003B4986 /* JSMCoreDataHelper.m in Sources */,
 				D510D66F15DE77B5003B4986 /* Constants.m in Sources */,
 				D510D60915DE65F5003B4986 /* main.m in Sources */,
 				D510D60D15DE65F5003B4986 /* AppDelegate.m in Sources */,
 				D510D63615DE67F7003B4986 /* BiergartenGAEFetcher.m in Sources */,
+				0B4CCE34189142720033285D /* PVAttractionAnnotationView.m in Sources */,
+				0B4CCE2C1891425C0033285D /* PVParkMapOverlayView.m in Sources */,
 				D510D63915DE6BB8003B4986 /* BiergartenDataModel.xcdatamodeld in Sources */,
 				D510D66715DE71EF003B4986 /* BiergartenDataHelper.m in Sources */,
 				D522BA5B15DEDEA800826307 /* Speisen.m in Sources */,
 				D522BA5E15DEDEA800826307 /* Biergarten.m in Sources */,
+				0B4CCE2D1891425C0033285D /* PVCharacter.m in Sources */,
 				D522BA6115DEDEA800826307 /* Adresse.m in Sources */,
+				0B4CCE2B1891425C0033285D /* PVParkMapOverlay.m in Sources */,
+				0B4CCE33189142720033285D /* PVAttractionAnnotation.m in Sources */,
 				D522BA6415DEDEA800826307 /* Getraenke.m in Sources */,
 				D5FAE63315E049A80028E80D /* BiergartenRootControllerViewController.m in Sources */,
 			);
